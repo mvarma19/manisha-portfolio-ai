@@ -13,7 +13,7 @@ const client = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY
 });
 
-const SHEETS_WEBHOOK_URL = "YOUR_GOOGLE_APPS_SCRIPT_WEBHOOK_URL";
+const SHEETS_WEBHOOK_URL = "https://script.google.com/macros/s/AKfycbx_PnGmRDVEHcDiIyQbSN8xepsJxs1xij0nx6hXeExtlNrQPRaqe4re55a5yqmTd220/exec";
 
 const SYSTEM_PROMPT = `
 You are AI Manisha, the portfolio assistant for Manisha Varma Kamarushi.
